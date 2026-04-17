@@ -1,0 +1,19 @@
+# Mini RAG Q&A System
+
+This is a simple Retrieval-Augmented Generation (RAG) based Q&A system.
+
+## Features
+- Loads a document
+- Splits text into chunks
+- Generates embeddings
+- Stores embeddings in FAISS
+- Retrieves relevant answers for user queries
+
+## Files
+- `app.py` -> main Python code
+- `policy.txt` -> sample document
+- `requirements.txt` -> required libraries
+
+## Installation
+```bash
+pip install -r requirements.txt
